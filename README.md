@@ -6,7 +6,7 @@
 
 <p align="center"><b>Prototyping Tool for Vue Developers</b></p>
 
-<p>OverVue is a prototyping tool that allows developers to dynamically create and visualize a Vue application, implementing a real-time intuitive tree display of component hierarchy and a live-generated code preview. The resulting boilerplate can be exported as a template for further development.</p>
+<p>OverVue is a prototyping tool that allows developers to <em>dynamically</em> create and visualize a Vue application, implementing a real-time intuitive <em>tree display</em> of component hierarchy and a live-generated <em>code preview</em>. The resulting boilerplate can be <em>exported</em> as a template for further development.</p>
 
 #### Features
 + Upload a frontend mockup image
@@ -81,6 +81,14 @@ To build a new .dmg
 quasar build -m electron
 ```
 
+#### Contributing
+We'd love for you to test this application out and submit any issues you encounter. Also feel free to fork to your own repo and submit PRs.
+Here are some features we're thinking about adding:
++ Vuex state prototyping and boilerplate export
++ Ability to add additional mockup images for more routes
++ Ability to nest HTML elements
++ Option to export files in TypeScript
+
 #### Authors
 ```
 Contributors:
@@ -89,3 +97,4 @@ Dean Chung @deanfchung
 Dean Ohashi @dnohashi
 Drew Nguyen @drewngyen
 ```
+Inspired by [PreVue](https://github.com/open-source-labs/ReacType)
